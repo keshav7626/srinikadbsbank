@@ -1,0 +1,25 @@
+//jdbc connection
+
+    import org.apache.commons.lang.RandonStringUtils;
+/**
+ * @author srinika
+ *
+ */
+public class Uniqueid {​​​​​
+    
+    public static final int ID_LENGTH = 10;
+ 
+    /**
+     * @param args
+     */
+    public String generateUniqueId() {​​​​​
+        
+      return RandomStringUtils.randomAlphanumeric(ID_LENGTH);
+    }​​​​​
+    public static void main(String[] args) {​​​​​
+        // TODO Auto-generated method stub
+        public  String Uniqueid=generateUniqueId();
+ 
+    }​​​​​
+ 
+}​​​​​
